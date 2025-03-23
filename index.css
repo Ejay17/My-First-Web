@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, #090979, #00d4ff);
+  padding: 20px 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.tagline {
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.line {
+  margin-left: 10px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.nav-links {
+  margin-right: 10%;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  display: inline;
+  gap: 0px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.nav-links a:hover {
+  color: #00c3ff;
+  background: rgb(247, 247, 247);
+  padding: 10px 20px;
+  color: rgb(10, 140, 254);
+  transition: .2s ease-in-out;
+  border-radius: 20px;
+  opacity: 80%;
+}
+
+.upper {
+  background: url(/assets/images/bank-teller-in-retail-bank-counter-serving-customer-with-transaction-173155309-2c52a6f7c0fe4042811fab6c67e0bb80.jpg) no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  padding: 0% 10%;
+  color: rgb(0, 0, 0);
+  justify-content: flex-start;
+}
+
+.title {
+  padding-top: 180px;
+  font-size: 26px;
+  font-weight: 900;
+  color: rgb(1, 50, 93);
+}
+
+.description {
+  width: 50vw;
+}
+
+.description p {
+  padding-top: 10px;
+  font-weight: 600;
+  color: rgb(14, 35, 54);
+}
+
+.getStarted {
+  margin: 30px 0px 0px 20px;
+}
+
+.getStarted a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  color: rgb(1, 50, 93);
+}
+
+.getStarted a:hover {
+  transition: .5s ease;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
